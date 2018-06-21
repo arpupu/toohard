@@ -24,27 +24,27 @@ namespace WpfApplication4
         {
             InitializeComponent();
         }
-        // 進入程式時
+        // 開始程式
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
 
             string[] lines = { };
-            // 如果有檔案就讀取
+            // 有檔案就進行讀取
             try
             {
                 lines = System.IO.File.ReadAllLines(@"D:\accountingApp\data.txt");
             }
-            // 如果沒檔案就新增
+            // 如果沒檔案就進行新增
             catch
             {
                 List<string> standard = new List<string>();
                 System.IO.File.WriteAllLines(@"D:\accountingApp\data.txt", standard);
             }
 
-            // 讀取每行
+            // 讀取每一行
             foreach (string line in lines)
             {
-                // 用 | 隔開
+                // 用 | 來隔開每一行
                 string[] parts = line.Split('|');
 
                 // 建立 category
@@ -55,21 +55,21 @@ namespace WpfApplication4
                 categorys.categoryName.Text = parts[1];
                 categorys.categoryPrice.Text = parts[2];
 
-                // 放到清單中
+                // 放到清單裡面
                 categoryList.Children.Add(categorys);
             }
         }
-        // 按下+鍵時
+        // 按下+鍵的時候
         private void addBtn_MouseDown(object sender, MouseButtonEventArgs e)
         {
             // 產生項目
             category categorys = new category();
 
-            //放到清單中
+            //放到清單裡面
             categoryList.Children.Add(categorys);
         }
 
-        // 關閉程式時
+        // 關閉程式的時候
         private void windowClosed(object sender, EventArgs e)
         {
             List<string> Texts = new List<string>();
@@ -79,7 +79,7 @@ namespace WpfApplication4
 
                 string data = "";
 
-                // 每一種資料以"|"分隔加入Texts字串
+                // 每一種資料以"|"分隔然後再加入Texts字串
                 data += categorys.categoryDate.Text + "|" + categorys.categoryName.Text + "|" + categorys.categoryPrice.Text;
 
                 // 存入Texts的陣列
@@ -89,7 +89,7 @@ namespace WpfApplication4
             System.IO.File.WriteAllLines(@"D:\accountingApp\data.txt", Texts);
         }
 
-        // 使用者切換欄位時 自動計算TOTAL
+        // 使用者切換欄位的時候 自動計算總和
         private void Window_GotFocus(object sender, RoutedEventArgs e)
         {
             int totalprice = 0;
