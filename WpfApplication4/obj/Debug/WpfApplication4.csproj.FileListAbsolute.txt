@@ -1,0 +1,16 @@
+C:\Users\李姳諼\Desktop\期末\WpfApplication4\WpfApplication4\bin\Debug\WpfApplication4.exe.config
+C:\Users\李姳諼\Desktop\期末\WpfApplication4\WpfApplication4\obj\Debug\WpfApplication4.csprojResolveAssemblyReference.cache
+C:\Users\李姳諼\Desktop\期末\WpfApplication4\WpfApplication4\obj\Debug\category.g.cs
+C:\Users\李姳諼\Desktop\期末\WpfApplication4\WpfApplication4\obj\Debug\MainWindow.g.cs
+C:\Users\李姳諼\Desktop\期末\WpfApplication4\WpfApplication4\obj\Debug\App.g.cs
+C:\Users\李姳諼\Desktop\期末\WpfApplication4\WpfApplication4\obj\Debug\WpfApplication4_MarkupCompile.cache
+C:\Users\李姳諼\Desktop\期末\WpfApplication4\WpfApplication4\obj\Debug\WpfApplication4_MarkupCompile.lref
+C:\Users\李姳諼\Desktop\期末\WpfApplication4\WpfApplication4\bin\Debug\WpfApplication4.exe
+C:\Users\李姳諼\Desktop\期末\WpfApplication4\WpfApplication4\bin\Debug\WpfApplication4.pdb
+C:\Users\李姳諼\Desktop\期末\WpfApplication4\WpfApplication4\obj\Debug\category.baml
+C:\Users\李姳諼\Desktop\期末\WpfApplication4\WpfApplication4\obj\Debug\MainWindow.baml
+C:\Users\李姳諼\Desktop\期末\WpfApplication4\WpfApplication4\obj\Debug\WpfApplication4.g.resources
+C:\Users\李姳諼\Desktop\期末\WpfApplication4\WpfApplication4\obj\Debug\WpfApplication4.Properties.Resources.resources
+C:\Users\李姳諼\Desktop\期末\WpfApplication4\WpfApplication4\obj\Debug\WpfApplication4.csproj.GenerateResource.Cache
+C:\Users\李姳諼\Desktop\期末\WpfApplication4\WpfApplication4\obj\Debug\WpfApplication4.exe
+C:\Users\李姳諼\Desktop\期末\WpfApplication4\WpfApplication4\obj\Debug\WpfApplication4.pdb
